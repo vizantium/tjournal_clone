@@ -1,0 +1,23 @@
+.fieldRoot {
+
+
+  &:after, &:before {
+    display: none;
+  }
+
+  //height: 48px;
+
+  cursor: pointer !important;
+}
+.form {
+  position: relative;
+  padding: 10px 17px !important;
+  background-color: #f7f7f7;
+  border: 1px solid rgba(0,0,0,0.03);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 30px !important;
+}
+.addButton {
+  margin-top: 10px !important;
+}
